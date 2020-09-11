@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="demo.app3.views.postr" />
+          <option value="demo.app2.forms.app2" />
+          <option value="demo.app2.models.employee" />
+          <option value="demo.app2.models.app2" />
+          <option value="demo.app2.forms.studentforms" />
+          <option value="demo.demo.urls.get_swagger_view_view" />
+          <option value="demo.apiswagger.urls.get_swagger_view" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

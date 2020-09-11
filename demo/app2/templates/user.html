@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+div {
+  border-radius: 5px;
+
+}
+</style>
+</head>
+<body style="background: #81bbd8;">
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <h2 style="text-align:center;">Employee</h2>
+        <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+   <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your Address..">
+
+    <label for="salary">Salary</label>
+    <input type="text" id="salary" name="salary" placeholder="Salary..">
+
+    <input type="checkbox"  name="status" value="True" ><br>
+
+
+        <input type="submit">
+    </form>
+        </div>
+            <div class="col-md-3">
+
+            </div>
+       </div>
+
+        </div>
+</div>
+</body>
+</html>
